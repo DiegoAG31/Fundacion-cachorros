@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Diego Ariza, Portfolio Diego, software developer, DiegoAG31">
+    <meta name="description" content="Portfolio by DiegoAG31, software developer">
+    <meta name="author" content="DiegoAG31">
+
+    <meta name="robots" content="index, follow"> <!-- Indica a los motores de búsqueda que indexen esta página -->
+    <meta name="googlebot" content="googlebot/2.1"> <!-- Información específica para Googlebot -->
+    <meta name="bingbot" content="bingbot/2.0"> <!-- Información específica para Bingbot -->
+    <meta name="referrer" content="no-referrer"> <!-- No enviar información de referencia -->
+    <meta name="X-XSS-Protection" content="1; mode=block"> <!-- Protección contra ataques XSS -->
+
+    <link rel="shortcut icon" href="./imagenes/favicon.webp" type="image/x-icon"> <!-- Icono de la pestaña -->
+    <link rel="stylesheet" href="Style.css"> <!-- Enlace a la hoja de estilos CSS -->
+
+    <title>Huellitas RIWI</title>
+</head>
+
+<body>
+    <header>
+        <div id="encabezado">
+            <img src="./images/logo.webp" alt="logo">
+            <h1>Huellitas</h1>
+        </div>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#perritos">Perritos</a>
+            <a href="#sobre-nosotros">Sobre Nosotros</a>
+            <a href="#contactanos">Contactanos</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Fundación Riwi</h2>
+            <p>Buscamos proteger la vida de perros y gatos en estado de maltrato y abandono. Les brindamos alimentos,
+                medicamentos y albergue, con el fin de mejorar su calidad de vida y conseguirles un hogar.</p>
+        </section>
+
+        <section id="perritos">
+            <h2>Galeria de perritos en adopción</h2>
+            <div class="fotos">
+                <img src="./images/foto1.webp" alt="perrito 1">
+                <img src="./images/foto2.webp" alt="perrito 2">
+                <img src="./images/foto3.webp" alt="perrito 3">
+                <img src="./images/foto4.webp" alt="perrito 4">
+                <img src="./images/foto5.webp" alt="perrito 5">
+                <img src="./images/foto6.webp" alt="perrito 6">
+                <img src="./images/foto7.webp" alt="perrito 7">
+                <img src="./images/foto8.webp" alt="perrito 8">
+            </div>
+        </section>
+
+        <section id="sobre-nosotros">
+            <div class="contenedor">
+                <h2>Lo que hacemos</h2>
+                <p>Los animales que llegan a la fundación reciben atención veterinaria completa, incluyendo
+                    esterilización,
+                    vacunación, desparacitación, identificación con microchip y cualquier tratamiento necesario para
+                    garantizar su bienestar hasta que logremos encontrarles un hogar que los cuide de por vida.</p>
+            </div>
+            <div class="contenedor">
+                <h2>Lo que queremos</h2>
+                <p>Promover la sensibilización colectiva fomentando la esterilización, el respeto a la vida, el NO al
+                    maltrato animal y la adopción responsable y soñamos con convertirnos en una organización líder en la
+                    protección y preservación de los animales que son víctimas del maltrato y la indiferencia.</p>
+            </div>
+        </section>
+
+        <section id="contactanos">
+            <form action="#" method="post">
+                <label for="nombre">Nombre: </label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej: Diego Ariza" required>
+                <br>
+
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" placeholder="Ej: Diegoag3107@gmail.com" required>
+                <br>
+
+                <label for="numero">Telefono: </label>
+                <input type="number" id="numero" name="numero" placeholder="Ej: 300760####" required>
+                <br>
+
+                <label for="mensaje">Mensaje: </label>
+                <textarea name="mensaje" id="mensaje" rows="4" placeholder="Escriba su mensaje detallado que quiera enviar..."></textarea>
+
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; DiegoAG31 2025. All rights reserved</p>
+    </footer>
+</body>
+
+</html>
